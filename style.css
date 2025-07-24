@@ -1,13 +1,28 @@
-
-#fname{
-    background-color: black;
-}
-#lname{
-    background-color: blueviolet;
+#fullname{
+    font-size: large;
+   }
+#phno{
+    font-size: large;
 }
 #email{
-    background-color: brown;
+    font-size: large;
 }
-#phno{
-    background-color: blueviolet;
+button{
+    
+    font-size: large;
+    background-color: white;
+    
+    
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+h2{
+    display:flex;
+    justify-content: center;
+
+}
+body{
+    background-color: red;
 }

@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>online form</title>
+    <title>feedback form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <label>firstname</label>
-    <input type="text"   placeholder="first name" id="fname"><br>
+   
+    <h2><u>feedback form</u></h2>
+    <label for="fullname">full Name  :</label>
+    <input type="text" id="fullname" placeholder="Enter Your Full Name"><br><br>
 
-    <label>lastname</label>
-    <input type="text" placeholder="lAST name" id="lname"><br>
+    
+    <label for="phno">ph no:</label>
+    <input type="text" id="phno" placeholder="Enter Your phno"><br><br>
 
-    <label>EMAIL</label>
-    <input type="text"  placeholder="EMAIL" id="EMAIL"><br>
-     <label>ph no</label>
-    <input type="text" placeholder="phno" id="phno">
+    <label for="email">email :</label>
+    <input type="text" id="email" placeholder="Enter Your email"><br><br>
 
-    <br>
-    <input type="button" id="button" value="button"><br>
-    <label>password</label>
-    <input type="password" placeholder="password" id="password">
+    <label for="Feedback">Feedback:</label><br>
+    <textarea input="text" id="Feedback" minlength="50"></textarea><br><br>
+
+     <button onclick="submit()">Submit</button>
+     <script src="script.js"></script>
+  
+
 
 </body>
 </html>
